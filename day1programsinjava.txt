@@ -1,0 +1,130 @@
+                                   PROGRAM-1
+class Example
+{
+public static void main(String args[])
+{
+  System.out.println("Hello world!");
+  System.out.println("Hello Java");
+}
+}
+  OUTPUT:
+Hello world!
+Hello Java 
+                          PROGRAM-2
+class ifelse
+{
+ public static void main(String args[])
+{
+int n=8;
+ if(n%2==0)
+{
+  if(n>2&&n<6)
+   {
+     System.out.println("not weired");
+   }
+   else
+   if(n<6&&n<20)
+   {
+     System.out.println("weired");
+   }
+  else
+  if(n>20)
+    {
+     System.out.println("not weired");
+    }
+  else
+  {
+  System.out.println("weired");
+   } 
+  }
+ }
+}
+OUTPUT:
+C:\Users\LENOVO\Documents>java ifelse.java
+weired
+                           PROGRAM-3
+class three
+{
+public static void main(String args[])
+{
+ int n=42;
+ Double d=3.1415; 
+ String str="Happy learning";
+ { 
+  System.out.println("int:"+n);
+  System.out.println("String:"+str);
+  System.out.println("Double:"+d);
+}
+}
+}
+ OUTPUT:
+C:\Users\LENOVO\Documents>javac three.java
+
+C:\Users\LENOVO\Documents>java three
+int:42
+String:Happy learning
+Double:3.1415
+                PROGRAM-4
+import java.util.Scanner;
+class fourth
+{
+public static void main(String args[])
+{
+   Scanner sc=new Scanner(System.in);
+   System.out.println("============");
+   for(int i=0;i<3;i++)
+{
+    String s1=sc.next();
+    int x=sc.nextInt();
+   System.out.println(" "+s1+"  "+x+" ");
+}
+  System.out.println("=============");
+    } 
+   }
+ 
+OUTPUT:
+C:\Users\LENOVO\Documents>javac fourth.java
+
+C:\Users\LENOVO\Documents>java fourth
+============
+java 100 cpp 065 python 50
+ java  100
+ cpp  65
+ python  50
+=============
+              PROGRAM-5
+import java.util.Scanner;
+class Multiple
+{
+public static void main(String args[])
+{
+  int N;
+  Scanner sc=new Scanner(System.in);
+  System.out.println("enter the number");
+  int n=sc.nextInt();
+  for(int i=1;i<=10;i++)
+{
+N=n*i;
+System.out.println("2*"+i+"="+N);
+}
+}
+}
+OUTPUT:
+C:\Users\LENOVO\Documents>javac Multiple.java
+
+C:\Users\LENOVO\Documents>java Multiple
+enter the number
+2
+2*1=2
+2*2=4
+2*3=6
+2*4=8
+2*5=10
+2*6=12
+2*7=14
+2*8=16
+2*9=18
+2*10=20
+
+               
+
